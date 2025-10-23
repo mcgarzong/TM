@@ -1,4 +1,4 @@
-import streamlit as st
+jimport streamlit as st
 import cv2
 import numpy as np
 from PIL import Image
@@ -22,7 +22,7 @@ data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
 st.title("🪞 El Espejo de las Decisiones")
 st.caption("Tu espejo mágico interpreta tus gestos y revela si la energía que proyectas es positiva o negativa. ✨")
 
-image = Image.open('OIG5.jpg')
+image = Image.open('espejo.jpeg')
 st.image(image, width=350, caption="Deja que el espejo lea tu energía...")
 
 with st.sidebar:
